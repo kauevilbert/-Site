@@ -24,12 +24,13 @@
 
     <section id="sobre">
         <h2>Sobre mim</h2>
-        <img src="https://avatars.githubusercontent.com/u/160488566?s=400&u=c0817ba8790cd4f7e4bafed408c826b0797e836a&v=4""""" alt="Imagem foto de perfil" title="Kauê e namorada">
+        <img src="https://avatars.githubusercontent.com/u/160488566?s=400&u=c0817ba8790cd4f7e4bafed408c826b0797e836a&v=4"""""
+            alt="Imagem foto de perfil" title="Kauê e namorada">
 
         <article><!--para escrevere-->
 
             <p><!--paragrafo-->
-                Oi, sou o kauê e amo minha namorada(essa no meu colo é ela), adicionado mais um texto
+                Oi, sou o kauê e amo minha namorada(essa no meu colo é ela)
             </p>
 
         </article>
@@ -73,6 +74,38 @@
             <h2>Contatos</h2>
 
             <p>Tem um projeto em mente? Entre em contato</p>
+
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="e-mail">E-mail: </label>
+                <input type="e-mail" id="e-mail" name="e-mail" required> <br>
+
+                <label for="telefone">Telefone: :</label>
+                <input type="tel" id="telefone" name="telfone" required> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto" required>
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br>
+
+                <label for="mensagem">Mensagem: </label> <br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea> <br>
+
+                <input type="checkbox" name="inscricao" id="inscricao">
+                <label for="inscriao">Deseja receber minha newsletter? FIque por dentro!</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
 
             <address><!--para por enereços, sejam de e-mail, celular etc-->
                 E-mail: <a href="mailto:kauevilvert@gmail.com">kauevilbert@gmail.com</a> <br>
